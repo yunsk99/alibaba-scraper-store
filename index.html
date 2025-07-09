@@ -1,81 +1,77 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>AliBaba Scraper (Advance)</title>
+  <title>AliBaba Scraper (Advance) – Powered by Yunsk</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background: #f9f9f9;
-      color: #333;
-      text-align: center;
+      margin: 0; padding: 0;
+      background: #f5f5f5; color: #333;
     }
     .container {
-      max-width: 600px;
+      max-width: 700px;
       margin: 50px auto;
+      padding: 20px;
       background: #fff;
-      padding: 40px 20px;
       border-radius: 10px;
-      box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+      text-align: center;
     }
     h1 {
-      color: #222;
+      color: #333;
+    }
+    p {
+      font-size: 16px;
     }
     .price {
       font-size: 20px;
-      margin: 10px 0 30px 0;
-    }
-    .wallet {
-      font-family: monospace;
-      font-size: 15px;
-      background: #eee;
-      padding: 10px;
-      margin: 10px auto 20px;
-      width: 90%;
-      word-break: break-all;
-      border-radius: 5px;
+      margin: 20px 0;
     }
     .qr {
-      margin-bottom: 30px;
+      margin: 20px 0;
     }
-    .button {
-      padding: 12px 24px;
-      background-color: #007bff;
-      color: white;
-      font-size: 16px;
-      border: none;
-      border-radius: 6px;
-      text-decoration: none;
+    .btn {
       display: inline-block;
-      margin-top: 15px;
+      background: #007bff;
+      color: #fff;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 20px;
     }
-    .button:hover {
-      background-color: #0056b3;
-    }
-    .footer {
+    .powered {
       margin-top: 40px;
       font-size: 14px;
-      color: #666;
+      color: #888;
+    }
+    .powered span {
+      color: red;
     }
   </style>
 </head>
 <body>
   <div class="container">
     <h1>AliBaba Scraper (Advance)</h1>
-    <p>Scrape Alibaba products to Excel & CSV with GUI – no coding needed!</p>
-    <p class="price">🔐 Price: <strong>$30 USDT (TRC20)</strong></p>
-    <p>Send payment to:</p>
-    <div class="wallet">TMD2V9mUC8NCgLH5ugMYxAE95UvKAfUUUZ</div>
-    <img src="trc20_qr.png" alt="TRC20 QR Code" width="180" class="qr"/>
-    
-    <a class="button" href="https://forms.gle/pY8MT5sRni1UsntB7" target="_blank">I Have Paid – Fill Confirmation Form</a>
+    <p>Scrape Alibaba products easily to Excel & CSV with this GUI tool. No coding needed!</p>
 
-    <div class="footer">
-      Powered by Yunsk – Made with ❤️
+    <div class="price">
+      🔒 <strong>Price: $30 USDT (TRC20)</strong>
+      <p>Send payment to the following address:</p>
+      <code>TMD2V9mUC8NCgLH5ugMYxAE95UvKAfUUUZ</code>
+    </div>
+
+    <div class="qr">
+      <img src="trc20_qr.png" alt="TRC20 QR" width="180" />
+    </div>
+
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdrNg6PJuQBxF7KwAkfM-zQ5jqNDepwt5rpi2TNEQkjVEWvyA/viewform" class="btn" target="_blank">
+      I Have Paid – Send My File
+    </a>
+
+    <div class="powered">
+      Powered by Yunsk – Made with <span>❤️</span>
     </div>
   </div>
 </body>
