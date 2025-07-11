@@ -49,7 +49,7 @@ A powerful scraping tool to extract product data from **Alibaba.com** using a cl
 ## 📸 Screenshots
 
 <img src="https://github.com/yunsk99/alibaba-scraper-store/blob/main/Capture1.PNG?raw=true" alt="GUI" width="500">
-<img src="[https://github.com/yunsk99/alibaba-scraper-store/blob/main/Capture.PNG" alt="Sample.xlsx" width="500">
+<img src="https://github.com/yunsk99/alibaba-scraper-store/blob/main/Capture.PNG?raw=true" alt="Sample.xlsx" width="500">
 
 ---
 
